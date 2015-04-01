@@ -1,0 +1,467 @@
+/*
+Theme Name:   Hemingway (Child)
+Theme URI:    http://www.andersnoren.se/teman/hemingway-wordpress-theme/
+Description:  Child theme for Hemingway developed by AJ Dyrbye for use on personal homepage http://dyrbye.ca
+Author:       AJ Dyrbye
+Author URI:   http://dyrbye.ca
+Template:     hemingway
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         black, dark, white, green, two-columns, fluid-layout, responsive-layout, custom-header, custom-menu, custom-colors, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready, editor-style
+*/
+
+/* Social icons: 'Somacro' by Tina Mailhot-Roberge at Veodesign. Source: http://veodesign.com/2011/en/11/08/somacro-27-free-big-and-simple-social-media-icons/ */
+
+/* New fonts: Old Standard TT, Lora */
+
+/* Body */
+
+body a {
+	color: #6b8e23;
+}
+
+body a:hover {
+	color: #6b8e23;
+}
+
+::selection {
+	background: #6b8e23;
+}
+
+/* Site Header */
+
+h1.blog-title {
+	font-family: "Old Standard TT", serif;
+}
+
+h3.blog-description {
+	font-family: "Lora", serif;
+	font-size: 20px;
+}
+
+.post-meta a:hover { 
+	color: #6b8e23; 
+}
+
+.post-content a.more-link:hover { 
+	background: #6b8e23; 
+}
+
+/*Site Navigation */
+
+ul.blog-menu a {
+	font-family: "Old Standard TT", serif;
+	font-size: 16px;
+}
+
+.blog-search #searchsubmit {
+	background: #6b8e23;
+	border: 1px solid #6b8e23;
+}
+
+/* Featured Media */
+
+.featured-media .sticky-post {
+	background: #6b8e23;
+}
+
+/* Posts */
+
+div.page-title h4 {
+	font-family: "Lora", serif;
+	font-size: 18px;
+}
+
+h2.post-title {
+	font-family: "Old Standard TT", serif;
+}
+
+div.post-meta a {
+	font-family: "Lora", serif;
+	font-size: 16px;
+}
+
+div.post-content h1,h2,h3,h4,h5,h6 {
+	font-family: "Old Standard TT", serif;
+}
+
+div.post-content p,ul,ol {
+	font-family: "Lora", serif;
+}
+
+div.post-content a.more-link {
+	font-size: 18px;
+}
+
+div.post-nav a {
+	font-family: "Lora", serif;
+	font-size: 16px;
+}
+
+.post-nav a:hover { 
+	color: #6b8e23; 
+}
+
+p.post-categories {
+	font-family: "Lora", serif;
+	font-size: 18px;
+}
+
+p.post-tags a {
+	font-family: "Old Standard TT", serif;
+	font-size: 13px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+
+div.post-nav a h5 {
+	font-size: 14px;
+}
+
+.post-tags a:hover {
+	background: #6b8e23;
+}
+
+.post-tags a:hover:after { 
+	border-right-color: #6b8e23; 
+}
+
+.post-content fieldset legend {
+	background: #6b8e23;
+}
+
+.post-content input[type="submit"]:hover,
+.post-content input[type="reset"]:hover,
+.post-content input[type="button"]:hover {
+	background: #6b8e23;
+}
+
+/* Comments */
+
+#commentform p {
+	font-family: "Lora", serif;
+	font-size: 20px;
+}
+
+#commentform p input {
+	font-family: "Lora", serif;
+	font-size: 22px;
+}
+
+#commentform p textarea#comment {
+	font-family: "Lora", serif;
+	font-size: 22px;
+}
+
+.comment-meta-content cite a:hover { 
+	color: #6b8e23; 
+}
+
+.comment-meta-content p a:hover { 
+	color: #6b8e23; 
+}
+
+.comment-form input[type="submit"]:hover {
+	background: #6b8e23;
+}
+
+/* Archive */
+
+.archive-nav a:hover { 
+	color: #6b8e23; 
+}
+
+/* Sidebar and widgets */
+
+h3.widget-title {
+	font-family: "Old Standard TT", serif;
+}
+
+.textwidget p {
+	font-family: "Lora", serif;
+	font-size: 17px;	
+}
+
+.widget_search input#s {
+	font-family: "Lora", serif;
+	font-size: 17px;
+	padding-top: 22px;
+}
+
+.widget_search #searchsubmit {
+	font-family: "Lora", serif;
+	font-size: 13px;
+	padding-top: 6px;	
+}
+
+.post-content .searchform #searchsubmit {
+	background: #1d1d1d;
+	border: 1px solid #1d1d1d;
+	font-family: "Lora", serif;
+	font-size: 13px;
+	padding-top: 15px;	
+}
+
+.widget_search #searchsubmit {
+	background: #1d1d1d;
+	border: 1px solid #1d1d1d;
+}
+
+.post-content .searchform #searchsubmit:hover {
+	background-color: #6b8e23;
+	border-color: #6b8e23;
+}
+
+.searchform #searchsubmit:hover {
+	background-color: #6b8e23;
+	border-color: #6b8e23;
+}
+
+#wp-calendar a { 
+	color: #6b8e23; 
+}
+
+#wp-calendar tfoot a:hover {
+	color: #6b8e23;
+}
+
+.tagcloud a {
+	font-family: "Lora", serif;
+	padding-top: 10px;
+}
+
+.tagcloud a:hover {
+	background: #6b8e23;
+}
+
+.flickr_badge_image a:hover img { 
+	background: #6b8e23; 
+}
+
+.dribbble-shot:hover img { 
+	background: #6b8e23; 
+}
+
+.footer .dribbble-shot:hover img { 
+	background: #6b8e23; 
+}
+
+.footer .tagcloud a:hover { 
+	background-color: #6b8e23; 
+}
+
+/*Landing page*/
+
+body.page-id-6 div.header {
+	display: none;
+}
+
+body.page-id-6 div.navigation {
+	display: none;
+}
+
+body.page-id-6 div.sidebar {
+	display: none;
+}
+
+body.page-id-6 div.footer {
+	display: none;
+}
+
+body.page-id-6 div.credits {
+	display: none;
+}
+
+body.page-id-6 {
+	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/looking_up.jpg) no-repeat center 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+}
+
+body.page-id-6 div.content {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.page-id-6 div.container {
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	background: /*#777777 #1d1d1d*/ #fff;
+	width: 550px;
+}
+
+body.page-id-6 div.author-intro {
+	margin-top: 1.5em;
+	margin-right: 1.25em;
+	margin-bottom: /*1.5em*/ 0;
+	margin-left: 2.25em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+body.page-id-6 div.author-intro h1 {
+	color:	#1d1d1d;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-bottom: 1ex;
+}
+
+body.page-id-6  div.author-intro p {
+	color: #1d1d1d;
+	font-size: 20px;
+	padding-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body.page-id-6 .author-buttons {
+	height: 160px;
+	margin-top: 15px;
+	margin-left: 2.25em;
+}
+
+body.page-id-6 .author-buttons a {
+	font-weight: bold;
+}
+
+body.page-id-6  .author-buttons .intro-btns {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+body.page-id-6  .author-buttons .intro-btns .btn {
+	background-color: #1d1d1d;
+	color: #808080;
+	font-family: "Old Standard TT", serif;
+	font-size: 20px;
+	margin-right: 54px;
+	margin-bottom: 32px;
+	padding-top: 0.65em;
+	padding-bottom: 0.5em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+body.page-id-6  .author-buttons .intro-btns a.btn:hover { 
+	background-color: #6b8e23; 
+	color: #FFF;
+	text-decoration: none;
+}
+
+body.page-id-6  .author-buttons .intro-btns #about-btn {
+	padding-right: 31px;
+	padding-left: 31px;
+}
+
+body.page-id-6  .author-buttons .intro-btns #blog-btn {
+	padding-right: 38px;
+	padding-left: 39px;
+}
+
+body.page-id-6  .author-buttons .intro-btns #portfolio-btn {
+	margin-right: 0;
+}
+
+.social-btns {
+	padding-top: 30px;
+	height: 64px;
+}
+
+.social-btns .soc-icon {
+	margin-right: 60px;
+	margin-left: 15px;
+}
+
+.social-btns .tw {
+	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/twitter.png) no-repeat center 0;
+	width: 48px;
+	height: 48px;
+	background-size: 48px;
+	display: block;	
+	float: left;
+	padding-right: 10px;
+}
+
+.social-btns .gp {
+	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/googleplus.png) no-repeat center 0;
+	width: 48px;
+	height: 48px;
+	background-size: 48px;
+	display: block;
+	float: left;
+}
+
+.social-btns .ln {
+	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/linkedin.png) no-repeat center 0;
+	width: 48px;
+	height: 48px;
+	background-size: 48px;
+	display: block;	
+	float: left;
+}
+
+.social-btns .git {
+	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/github.png) no-repeat center 0;
+	width: 48px;
+	height: 48px;
+	background-size: 48px;
+	display: block;
+	float: left;
+}
+
+/* 404 */
+
+.error404 div.sidebar {
+	display: none;
+}
+
+.error404 .content {
+	float: none;
+	width: 95%;
+}
+
+.error404 .content .left {
+	padding-left: 0;
+}
+
+.error404 .nfimage {
+	float: left;
+	margin-top: 10px;
+}
+
+.error404 .nfimage img {
+	width: 480px;
+	height: 330px;
+}
+
+.error404 .nftext {
+	float: right;
+	width: 385px;
+	margin-top: -45px;
+}
+
+.error404 .nftext p {
+	margin-bottom: 16px;
+}
+
+.post-content .searchform input#s {
+	font-family: "Lora", serif;
+	font-size: 17px;
+	padding-top: 22px;
+}
+
+/* Footer */
+
+div.credits-inner p {
+	font-family: "Lora", serif;
+	font-size: 14px;
+}
