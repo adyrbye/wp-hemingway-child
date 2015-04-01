@@ -8,6 +8,8 @@
 */
 ?>
 
+<div id="landing">
+
 <?php get_header(); ?>
 
 <div class="wrapper section-inner">						
@@ -70,3 +72,4 @@
 </div> <!-- /wrapper -->
 								
 <?php get_footer(); ?>
+</div> <!-- /landing -->

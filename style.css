@@ -253,27 +253,27 @@ h3.widget-title {
 
 /*Landing page*/
 
-body.page-id-6 div.header {
+#landing div.header {
 	display: none;
 }
 
-body.page-id-6 div.navigation {
+#landing div.navigation {
 	display: none;
 }
 
-body.page-id-6 div.sidebar {
+#landing div.sidebar {
 	display: none;
 }
 
-body.page-id-6 div.footer {
+#landing div.footer {
 	display: none;
 }
 
-body.page-id-6 div.credits {
+#landing div.credits {
 	display: none;
 }
 
-body.page-id-6 {
+#landing {
 	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/looking_up.jpg) no-repeat center 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -282,13 +282,13 @@ body.page-id-6 {
 	min-height: 100%;
 }
 
-body.page-id-6 div.content {
+#landing div.content {
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-body.page-id-6 div.container {
+#landing div.container {
 	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -296,7 +296,7 @@ body.page-id-6 div.container {
 	width: 550px;
 }
 
-body.page-id-6 div.author-intro {
+#landing div.author-intro {
 	margin-top: 1.5em;
 	margin-right: 1.25em;
 	margin-bottom: /*1.5em*/ 0;
@@ -305,7 +305,7 @@ body.page-id-6 div.author-intro {
 	padding-bottom: 1.5em;
 }
 
-body.page-id-6 div.author-intro h1 {
+#landing div.author-intro h1 {
 	color:	#1d1d1d;
 	font-size: 28px;
 	font-weight: bold;
@@ -315,7 +315,7 @@ body.page-id-6 div.author-intro h1 {
 	padding-bottom: 1ex;
 }
 
-body.page-id-6  div.author-intro p {
+#landing  div.author-intro p {
 	color: #1d1d1d;
 	font-size: 20px;
 	padding-right: 30px;
@@ -323,22 +323,22 @@ body.page-id-6  div.author-intro p {
 	margin-bottom: 10px;
 }
 
-body.page-id-6 .author-buttons {
+#landing .author-buttons {
 	height: 160px;
 	margin-top: 15px;
 	margin-left: 2.25em;
 }
 
-body.page-id-6 .author-buttons a {
+#landing .author-buttons a {
 	font-weight: bold;
 }
 
-body.page-id-6  .author-buttons .intro-btns {
+#landing  .author-buttons .intro-btns {
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
 
-body.page-id-6  .author-buttons .intro-btns .btn {
+#landing  .author-buttons .intro-btns .btn {
 	background-color: #1d1d1d;
 	color: #808080;
 	font-family: "Old Standard TT", serif;
@@ -351,23 +351,23 @@ body.page-id-6  .author-buttons .intro-btns .btn {
 	padding-left: 1em;
 }
 
-body.page-id-6  .author-buttons .intro-btns a.btn:hover { 
+#landing  .author-buttons .intro-btns a.btn:hover { 
 	background-color: #6b8e23; 
 	color: #FFF;
 	text-decoration: none;
 }
 
-body.page-id-6  .author-buttons .intro-btns #about-btn {
+#landing  .author-buttons .intro-btns #about-btn {
 	padding-right: 31px;
 	padding-left: 31px;
 }
 
-body.page-id-6  .author-buttons .intro-btns #blog-btn {
+#landing  .author-buttons .intro-btns #blog-btn {
 	padding-right: 38px;
 	padding-left: 39px;
 }
 
-body.page-id-6  .author-buttons .intro-btns #portfolio-btn {
+#landing  .author-buttons .intro-btns #portfolio-btn {
 	margin-right: 0;
 }
 
