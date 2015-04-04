@@ -20,7 +20,7 @@
 			        
 			        	<article id="notfound">
 							<aside class="nfimage">
-								<img src="http://localhost:8888/wordpress/wp-content/themes/hemingway-child/images/guybrush_lost.gif" />
+								<img src="http://dyrbye.ca/wp-content/uploads/2015/04/guybrush_lost.gif" />
 							</aside>
 							<aside class="nftext">
 								<header class="page-header">
@@ -28,7 +28,7 @@
 								</header>
 								<div class="page-content">
 									<p><?php _e("The page you're looking for seems to have gone adrift, fallen fowl of a bad link, or been washed out to a new location.", 'hemingway') ?></p>
-									<p>Never fear, you needn't share this guy's brush with bad luck. Head back to the <a href="http://localhost:8888/wordpress/blog/">blog</a>, check out some of my <a href="http://localhost:8888/wordpress/portfolio/">work</a>, or try a search below.</p>
+									<p>Never fear, you needn't share this guy's brush with bad luck. Head back to the <a href="http://dyrbye.ca/blog/">blog</a>, check out some of my <a href="http://dyrbye.ca/portfolio/">work</a>, or try a search below.</p>
 									<?php get_search_form(); ?>
 								</div>	
 							</aside>

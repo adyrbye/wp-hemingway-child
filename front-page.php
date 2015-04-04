@@ -4,7 +4,7 @@
 *
 * @package WordPress
 * @subpackage Hemingway
-* @since Radcliffe 1.47
+* @since Hemingway 1.47
 */
 ?>
 

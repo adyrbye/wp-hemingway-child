@@ -5,7 +5,7 @@
 *
 * @package WordPress
 * @subpackage Hemingway
-* @since Radcliffe 1.12
+* @since Hemingway 1.47
 */
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );

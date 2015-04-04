@@ -166,6 +166,43 @@ div.post-nav a h5 {
 	background: #6b8e23;
 }
 
+/* Contact */
+
+#contact-form-136 form.contact-form {
+	font-family: "Lora", serif;
+	font-size: 22px;
+}
+
+#contact-form-136 form.contact-form div label {
+	font-size: 20px;
+	padding-top: 1em;
+}
+
+.post-content input[type="text"] {
+	font-family: "Lora", serif;
+	font-size: 20px;
+}
+
+.post-content input[type="email"] {
+	font-family: "Lora", serif;
+	font-size: 20px;
+	width: 300px;
+  	max-width: 98%;
+  	margin-bottom: 13px;
+  	padding: 14px 16px;
+	border: none;
+	color: #333;
+	background: #f2f2f2;
+	border-radius: 3px;
+	-webkit-appearance: none;
+}
+
+.post-content input[type="submit"], .post-content input[type="reset"], .post-content input[type="button"] {
+	font-family: "Lora", serif;
+	font-size: 20px;
+	margin-top: 1em;
+}
+
 /* Archive */
 
 .archive-nav a:hover { 
@@ -274,7 +311,7 @@ h3.widget-title {
 }
 
 #landing {
-	background: url(http://localhost:8888/wordpress/wp-content/themes/radcliffe-child/images/looking_up.jpg) no-repeat center 0;
+	background: url(images/looking_up.jpg) no-repeat center 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
